@@ -15,7 +15,7 @@ struct Developer: Identifiable {
     
     var seniorityLabel: String {
         if seniority > 6 {
-            return "Senior iOS Developer 🚀"
+            return "Senior iOS16 Developer 🚀"
         } else if seniority > 2 {
             return "Mid iOS Developer 🍎"
         } else if seniority > 0.5 {
