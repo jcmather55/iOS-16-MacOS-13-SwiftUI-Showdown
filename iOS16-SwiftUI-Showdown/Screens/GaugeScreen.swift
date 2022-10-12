@@ -46,8 +46,8 @@ struct GaugeScreen: View {
             .tint(.orange)
 
             Gauge(value: progress) {
-                Text("Status")
-                    .font(.footnote)
+                Text("SpO2")
+                    .font(.caption2)
             } currentValueLabel: {
                 Text(progress.formatted(.percent))
                     .font(.footnote)
